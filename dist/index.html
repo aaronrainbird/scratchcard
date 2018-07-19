@@ -18,15 +18,15 @@
     <script type="text/javascript">
         var scContainer = document.getElementById('js--sc--container');
         var sc = new ScratchCard('#js--sc--container', {
-          enabledPercentUpdate: true,
-          scratchType: SCRATCH_TYPE.CIRCLE,
-          containerWidth: scContainer.offsetWidth,
-          containerHeight: 300,
+          enabledPercentUpdate: false,
+          scratchType: SCRATCH_TYPE.BRUSH,
+          containerWidth: 892,
+          containerHeight: 991,
           imageForwardSrc: './images/scratchcard.png',
-          imageBackgroundSrc: '',
+          imageBackgroundSrc: './images/seatplan.jpg',
           htmlBackground: '<p class="test"><strong>Hello i am HTML content !</strong></p>',
           clearZoneRadius: 50,
-          percentToFinish: 50, // When the percent exceeds 50 on touchend event the callback will be exec.
+          percentToFinish: 90, // When the percent exceeds 50 on touchend event the callback will be exec.
           nPoints: 30,
           pointSize: 4,
           callback: function () {
